@@ -18,4 +18,4 @@ jobs:
 
       - name: 4. Chạy bộ Test tự động
         # Lệnh này sẽ giả lập việc bấm "Run Collection" như đã làm trên máy cá nhân
-        run: newman run RestfulBooker_API_Collection.postman_collection.json -e RestfulBooker.postman_environment.json
+        run: newman run RestfulBooker_API_Collection.postman_collection.json -e RestfulBooker_Env.postman_environment.json
